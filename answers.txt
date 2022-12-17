@@ -1,0 +1,12 @@
+# answers
+1. What do you notice about the difference in the results?
+   I notice the bertweet model is a better detector of sentiment.
+2. Do the results for the bertweet-base model look better, or worse, than the results for the distilbert-base model? Why?
+   Better, because the distribution looks even with the default distilbert-base model, where the bertweet model shows
+   a better representation of the sentiment distribution.
+3. How did you do? Did you find any surprising results?
+   Good, some surprising results were the contradictory results on the first example_difficult_tweets[0] and
+   and I was able to subvert a negative sentiment with my phrase "You are great when not acting like yourself",
+   which I believe to be a negative statement.
+4. Are there any instances where the two models gave different predictions for the same tweet?
+   Yes

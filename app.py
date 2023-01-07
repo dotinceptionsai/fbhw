@@ -8,7 +8,7 @@ from pydantic import BaseModel
 from fastapi import FastAPI, Request
 
 model="t5-base"
-pipeline = pipeline("translation", model=model)
+pipeline = pipeline("translation_en_to_de", model=model)
 pipeline.save_pretrained('/data/models/' + model)
 
 app = FastAPI()

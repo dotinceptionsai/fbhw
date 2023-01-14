@@ -1,0 +1,31 @@
+Algorithm Understanding
+Feature selection methods are intended to reduce the number of input variables to those that are believed to be most
+ useful to a model in order to predict the target variable. What algorithms can be used to automatically select the
+ most important features (regression, etc..)? Describe at least 3?
+
+1. Filter methods; measure relevance of features by their correlation with the independent variable
+2. Wrapper methods; measure the usefulness of subsets of features by training a model on it, uses predictive model
+3. Embedded methods; selects features during model building
+
+Interview Readiness
+Explain data leakage and overfitting (define each)?
+Explain the effect of data leakage and overfitting on the performance of an ML model.
+* data leakage; when the model's training set contains data that will also be in the test set
+* overfitting; when the model is too well fit to the training data but performs poorly against new data
+* can scew results and give overestimate accuracy/performance metrics.
+
+Interview Readiness
+Explain what our outliers in your data?
+Explain at least two methods to deal/treat outliers in your data?
+* these are the variables in our dataset that are the "longtails" that can scew our results
+  on a distribution they are known as the 'longtail'
+* to treat
+  1. use box plot to determine outliner position and simply remove
+  2. keep the inner  25/50 quartiles ranges of values
+
+Interview Readiness
+What is feature scaling and why is it important to our model?
+Explain the different between Normalization and Standardization?
+* often our moodel needs to predict on values between 0 and 1, standardization/scaling handles this
+* in normalization you cahange the shape of the distribution, with scaling you chahnge the range of your data values, 
+

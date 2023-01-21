@@ -1,0 +1,12 @@
+# subscription prediction with spark and mllib
+
+1. code assigment completed
+2. alorithm understanding
+   Not sure
+3. interview readiness
+   delta lakes help manage transactions and various metadata associated with data pipelines to improve the quality and reliability of datapipelines
+4. interview readiness
+   pyspark pandas api is meant for distributed workloads where the latter option is meant to run from a single machine
+5. interview readiness
+   ml pipelines includes a number of operations that lead to a final model including Data Engineering, ML Model Engineering, Code Engineering
+
